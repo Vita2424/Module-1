@@ -15,6 +15,6 @@ public class Task5 {
 
 
         Date a=new Date(( x + y + z ) - o);
-        System.out.println("Новая дата: "+a);
+        System.out.println("Новая  дата: "+a);
     }
 }
