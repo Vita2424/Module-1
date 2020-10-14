@@ -16,7 +16,7 @@ public class Task6 {
         int corner3 = 180 - (corner1 + corner2);
         int summa = corner1 + corner2 + corner3;
 
-        if (summa <= 180) { // Проверяем существет ли такой треугольник
+        if (summa <= 180 & summa < 0) { // Проверяем существет ли такой треугольник
             System.out.println("Такой треугольник существует!");
         } else {
             System.out.println("Такого треугольника НЕ существует!");
