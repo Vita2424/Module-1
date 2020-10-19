@@ -1,3 +1,6 @@
+/*
+Найти max{min(a,b),min(c,d)}.
+ */
 package linear;
 
 import java.util.Scanner;
